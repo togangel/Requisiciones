@@ -1,0 +1,83 @@
+input[type="text"],input[type="button"],select,input[type="submit"]{
+padding: 3px;
+border-radius: 2px;
+border: solid 1px #ccc;
+background: #fff;
+color: #000;
+}
+
+.num{
+	width: 50px;
+}
+
+input[type="text"]:focus,input[type="text"]:active,input[type="text"]:hover,
+input[type="button"]:focus,input[type="button"]:active,input[type="button"]:hover,
+select:focus,select:active,select:hover
+input[type="submit"]:focus, input[type="submit"]:active, input[type="submit"]:hover{
+border-color: #777;
+}
+
+#divContenedor{
+	margin:0 auto;
+	background: #9CF8FC;
+	height: auto;
+}
+
+#divEjemplo{
+padding: 10px;
+height: 370px;
+}
+
+#divEjemplo select{
+width: 200px;
+}
+
+#divControles{
+
+}
+
+#divLista{
+max-height: 330px;
+width: 98%;
+overflow: auto;
+}
+
+#divLista ul{
+list-style-type: none;
+}
+
+#divLista ul li{
+padding: 7px;
+border-radius: 3px;
+}
+
+#divLista ul li:nth-child(odd){
+background: #f1f1f1;
+}
+
+#divLista ul li:nth-child(even){
+background: #fff;
+}
+
+#divLista ul li a.clsEliminarElemento{
+padding-left: 3px;
+padding-right: 3px;
+border: solid 1px #ccc;
+border-radius: 3px;
+display: inline-block;
+margin-right: 10px;
+cursor: pointer;
+text-align: center;
+background: #FA5858;
+color: white;
+}
+
+#divLista ul li a.clsEliminarElement  o:hover{
+border-color: #000;
+}
+
+p{
+	margin: 0px;
+	padding: 0px;
+	margin-bottom: 7px;
+}
